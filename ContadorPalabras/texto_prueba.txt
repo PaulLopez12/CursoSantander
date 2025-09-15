@@ -1,0 +1,5 @@
+Hola mundo, este es un archivo de prueba.
+El contador de palabras debe funcionar correctamente.
+Python es un lenguaje de programación muy útil.
+Este archivo contiene varias palabras repetidas como Python y archivo.
+La programación es divertida y Python es genial.
