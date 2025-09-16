@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block title %}Acerca de - Gestor de Tareas{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h4><i class="fas fa-info-circle"></i> Acerca de la Aplicación</h4>
+            </div>
+            <div class="card-body">
+                <div class="text-center mb-4">
+                    <i class="fas fa-tasks fa-5x text-primary mb-3"></i>
+                    <h2>Gestor de Tareas</h2>
+                    <p class="lead">Una aplicación web simple para gestionar tus tareas diarias</p>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5><i class="fas fa-cogs"></i> Características</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check text-success"></i> Crear nuevas tareas</li>
+                            <li><i class="fas fa-check text-success"></i> Marcar tareas como completadas</li>
+                            <li><i class="fas fa-check text-success"></i> Establecer prioridades</li>
+                            <li><i class="fas fa-check text-success"></i> Eliminar tareas</li>
+                            <li><i class="fas fa-check text-success"></i> Ver estadísticas</li>
+                            <li><i class="fas fa-check text-success"></i> API REST</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h5><i class="fas fa-tools"></i> Tecnologías</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fab fa-python text-primary"></i> Python 3</li>
+                            <li><i class="fas fa-flask text-success"></i> Flask</li>
+                            <li><i class="fab fa-html5 text-danger"></i> HTML5</li>
+                            <li><i class="fab fa-css3-alt text-info"></i> CSS3</li>
+                            <li><i class="fab fa-bootstrap text-purple"></i> Bootstrap 5</li>
+                            <li><i class="fab fa-js text-warning"></i> JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="mt-4">
+                    <h5><i class="fas fa-code"></i> API Endpoints</h5>
+                    <div class="table-responsive">
+                        <table class="table table-sm">
+                            <thead>
+                                <tr>
+                                    <th>Método</th>
+                                    <th>Endpoint</th>
+                                    <th>Descripción</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span class="badge bg-primary">GET</span></td>
+                                    <td><code>/api/tareas</code></td>
+                                    <td>Obtener todas las tareas</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="badge bg-success">POST</span></td>
+                                    <td><code>/api/tareas</code></td>
+                                    <td>Crear una nueva tarea</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-4">
+                    <a href="{{ url_for('index') }}" class="btn btn-primary">
+                        <i class="fas fa-home"></i> Volver al Inicio
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
