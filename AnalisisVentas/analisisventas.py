@@ -1,8 +1,9 @@
 #1. Cargar datos del archivo csv
-from itertools import groupby
-from tokenize import group
 import pandas as pd
 df = pd.read_csv('ventas.csv')
+
+# Convertir la columna fecha a datetime
+df['fecha'] = pd.to_datetime(df['fecha'])
 
 #2. Calcular el total de ventas por mes
 df['mes'] = df['fecha'].dt.to_period('M')
@@ -44,6 +45,7 @@ plt.bar(top5.index, top5['ingreso'])
 plt.title("Top 5 productos por Ingresos")
 plt.ylabel("Ingresos (€)")
 plt.xlabel("Producto")
+plt.xticks(rotation=45)
 plt.tight_layout()
 plt.savefig("top5_productos.png")
 plt.show()
