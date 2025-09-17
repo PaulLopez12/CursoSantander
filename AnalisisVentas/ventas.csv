@@ -1,7 +1,7 @@
 fecha,producto,cantidad,precio
 2024-01-15,Laptop Dell,2,899.99
 2024-01-16,Teclado Mecánico,5,89.50
-2024-01-17,Monitor 24",3,299.99
+2024-01-17,Monitor 24 pulgadas,3,299.99
 2024-01-18,Mouse Inalámbrico,10,25.99
 2024-01-19,Impresora HP,1,199.99
 2024-01-20,Tablet Samsung,4,349.99
@@ -15,7 +15,7 @@ fecha,producto,cantidad,precio
 2024-02-25,Memoria USB 32GB,15,12.99
 2024-03-08,Tablet iPad,2,499.99
 2024-03-15,Teclado Gaming,4,129.99
-2024-03-22,Monitor 27",2,399.99
+2024-03-22,Monitor 27 pulgadas,2,399.99
 2024-03-29,Impresora Canon,1,179.99
 2024-04-03,Laptop HP,1,699.99
 2024-04-10,Webcam 4K,5,89.99
@@ -32,7 +32,7 @@ fecha,producto,cantidad,precio
 2024-06-26,Disco Externo 2TB,3,89.99
 2024-07-03,Smartphone Samsung,1,799.99
 2024-07-10,Teclado RGB,5,95.99
-2024-07-17,Monitor 32",1,499.99
+2024-07-17,Monitor 32 pulgadas,1,499.99
 2024-07-24,Impresora Multifunción,1,299.99
 2024-07-31,Tablet Microsoft,2,349.99
 2024-08-07,Laptop Lenovo,1,649.99
